@@ -16,7 +16,6 @@ li{list-style: none;}
   position: fixed;
   left: 50%;
   top: 50%;
-
   transform: translate(-50%, -50%);
   background: #ffffff;
   padding: 20px;
@@ -24,9 +23,12 @@ li{list-style: none;}
   width: 300px;
   height: 300px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
 }
 
-/* 1113 */
 .myP{
   color: #f00;
   background-color: skyblue;
@@ -41,7 +43,6 @@ li{list-style: none;}
   border-right: 1px solid #000;
 }
 .tab > ul > li.active{background: skyblue; border-bottom: 0 none;}
-
 
 .swiper {
   width: 100%;
@@ -68,3 +69,13 @@ li{list-style: none;}
 .lists > li:hover{
   background: skyblue;
 }
+
+.btnWrap{
+  display: flex;
+  justify-content: end;
+}
+
+.btnWrap button{
+  padding: 5px 15px;
+}
+
