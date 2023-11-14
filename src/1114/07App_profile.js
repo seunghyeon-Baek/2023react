@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import {vData, vData1} from './data.js'
+import {vData, vData1} from '../data.js'
 // import logo from './data.js'
 
 function App() {

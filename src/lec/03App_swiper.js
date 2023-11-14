@@ -1,6 +1,6 @@
 import './App.css';
 
-import ModalView from './components/ModalView.jsx';
+import ModalView from '../components/ModalView.jsx';
 function App() {
   return (
     <div className="App">

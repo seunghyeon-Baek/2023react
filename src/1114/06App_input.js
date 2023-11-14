@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 
 // 다른 파일에서 만든 컴포넌트 사용하려면
-import Modal from './components/Modal';
+import Modal from '../components/Modal';
 
 function App() {
   const [vData, setVdata] = useState([

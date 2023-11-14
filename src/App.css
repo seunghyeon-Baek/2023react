@@ -84,3 +84,12 @@ li{list-style: none;}
   display: inline-block;
   padding: 10px;
 }
+
+.avata{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avata img{width: 100%;}
