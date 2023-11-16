@@ -118,3 +118,42 @@ li{list-style: none;}
   left: 50%;
   transform: translateX(-700%);
 }
+
+/* 1116 */
+.card{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s; /* 속도 */ 
+}
+
+.card:hover{
+  transform: translate(-10px, -10px);
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.3);
+  /* 호버했을때 그림자 호버전 card에서는 0px로 */
+  cursor: pointer;
+}
+
+.banner{
+  height: 400px;
+}
+.icon{
+  width: 70px;
+  height: 70px;
+  background: skyblue;
+  border-radius: 50%;
+
+  /* 원 안에 가운데로 오도록하려면 밑에 3개 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner img{
+  position: absolute;
+}
+
+.banWrap{
+  background-image: url(./assets/img/bannerBg01.png);
+  background-size: cover ;
+  background-attachment: fixed;
+  background-position: center;
+}
