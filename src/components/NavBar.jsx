@@ -9,7 +9,7 @@ function NavBar(){
         <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href="#home">LOGO</Navbar.Brand>
-          {/* <Navbar.Toggle aria-controls="basic-navbar-nav" />   */}
+          
           <Button onClick={handleShow} className='d-block d-md-none'>
             <span class="navbar-toggler-icon"></span>
           </Button>
