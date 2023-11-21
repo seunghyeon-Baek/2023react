@@ -1,0 +1,62 @@
+// 기본설정
+$primary : pink;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a:link,a:visited{
+    text-decoration: none;
+    color: #333;
+}
+// ==================
+.container{
+    width: 1220px;
+    margin: 0 auto;  // 가운데오도록
+    // background: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &.bg{
+        background-color: skyblue;
+        border-radius: 10px;
+        background-size: cover;
+        background-position: center;
+        &.com{
+            background-color:rgb(192, 207, 255);
+            color: white;
+        }
+        &.comm{
+            background-color : rgb(223, 209, 133);
+        }
+    }
+}
+.header{
+    display: flex;
+}
+.menu{
+    display: flex;
+    margin-left: auto; // 메뉴만 뒤로
+    li{
+        a{
+            display: block;
+            padding: 10px 15px;
+        }
+        a.active{
+            background: pink;
+        }
+    }
+
+}
+.primary{
+    background: $primary; // 위에서 primary지정하고 이렇게 사용가능
+}
+.h100{
+    height: 100px;
+}
+.h200{
+    height: 200px;
+}
